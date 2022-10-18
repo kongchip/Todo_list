@@ -1,0 +1,39 @@
+.TodoItem {
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(160, 113, 32);
+
+    width: 400px;
+}
+
+.TodoItem + .TodoItem {
+    margin-top: 15px;
+}
+
+.content {
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* 가져온 아이콘은 svg파일에 있음 */
+.content svg {
+    font-size: 1.5rem;
+    color: rgb(160, 113, 32);
+}
+
+.content .text {
+    margin-left: 0.5rem;
+    flex: 1;
+}
+
+.content.checked .text {
+    color: black;
+    text-decoration: line-through;
+    cursor: pointer;
+    opacity: 0.6;
+}

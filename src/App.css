@@ -1,0 +1,11 @@
+.AddTodoButton {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: -5px;
+  bottom: 0;
+  cursor: pointer;
+  font-size: 5rem;
+  color: rgb(160, 113, 32);
+  z-index: 100;
+}
